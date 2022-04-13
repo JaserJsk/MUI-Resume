@@ -1,0 +1,48 @@
+{
+  "email_username": "E-postadress / Användarnamn",
+  "first_name": "Förnamn",
+  "last_name": "Efternamn",
+  "password": "Lösenord",
+  "signin": "Logga in",
+  "logout": "Logga ut",
+  "welcome": "Välkommen",
+  "signup": "Registrering",
+  "google_signin": "Logga in med Google",
+  "email_signin": "Logga in med e-postadress",
+  "google_signup": "Registrera dig med Google",
+  "email_signup": "Registrera dig med e-postadress",
+  "remember_me": "Kom ihåg mig",
+  "forgot_password": "Glömt lösenord?",
+  "have_account": "Har du redan ett konto?",
+  "no_account": "Har du inget konto?",
+  "accept_our": "Acceptera våra ",
+  "terms_condition": "Villkor",
+  "send": "Skicka",
+  "or_use": "ELLER",
+
+  "enter_credentials": "Ange dina referenser för att fortsätta",
+  "reset_password": "Ange din e-postadress så skickar vi dig OTP för återställning av lösenord",
+
+  "facebook": "Facebook",
+  "twitter": "Twitter",
+
+  "default": "Standard",
+  "home": "Hem",
+  "dashboard": "Dashboard",
+  "documentation": "Dokumentation",
+
+  "account_user": "Kontoanvändare: ",
+  "user_role": "Projektadministratör",
+  "dnd_mode": "Starta DND Läge",
+  "notifications": "Tillåt Aviseringar",
+  "settings": "Inställningar",
+
+  "starter": "Startkit mall med",
+  "starter_desc": "Detta är en Starter-Kit mall för React.js applikationer",
+  "react_typescript": "React.js & Typescript",
+  "enter_dashboard": "Till Dashboard",
+  "powered_by": "Powered By MUI © ",
+  "component_lib": "- React Component Library",
+
+  "copy_right": "© Senseidev"
+}

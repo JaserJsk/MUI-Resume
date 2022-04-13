@@ -1,0 +1,48 @@
+{
+  "email_username": "Email Address / Username",
+  "first_name": "First Name",
+  "last_name": "Last Name",
+  "password": "Password",
+  "signin": "Signin",
+  "logout": "Signout",
+  "welcome": "Welcome",
+  "signup": "Signup",
+  "google_signin": "Signin with Google",
+  "email_signin": "Signin with Email address",
+  "google_signup": "Signup with Google",
+  "email_signup": "Signup with Email address",
+  "remember_me": "Remember me",
+  "forgot_password": "Forgot Password?",
+  "have_account": "Already have an account?",
+  "no_account": "Don't have an account?",
+  "accept_our": "Accept our ",
+  "terms_condition": "Terms & Conditions",
+  "send": "Send",
+  "or_use": "OR",
+
+  "enter_credentials": "Enter your credentials to continue",
+  "reset_password": "Enter your email address and we'll send you password reset OTP",
+
+  "facebook": "Facebook",
+  "twitter": "Twitter",
+
+  "default": "Default",
+  "home": "Home",
+  "dashboard": "Dashboard",
+  "documentation": "Documentation",
+
+  "account_user": "Account User: ",
+  "user_role": "Project Admin",
+  "dnd_mode": "Start DND Mode",
+  "notifications": "Allow Notifications",
+  "settings": "Settings",
+
+  "starter": "Starter Kit Template With",
+  "starter_desc": "This is a Starter-Kit Template for React.js applications",
+  "react_typescript": "React.js & Typescript",
+  "enter_dashboard": "Enter Dashboard",
+  "powered_by": "Powered By © MUI ",
+  "component_lib": "- React Component Library",
+
+  "copy_right": "© Senseidev"
+}
