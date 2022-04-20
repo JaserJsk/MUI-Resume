@@ -58,10 +58,10 @@ const HeaderPage = () => {
                 {UserData.map((user, key) => (
                   <UserProfile
                     key={key}
-                    fullname={user.fullname}
-                    role={user.role}
+                    name={user.name}
+                    title={user.title}
                     hunting={user.hunting}
-                    photo={user.photo}
+                    avatar={user.avatar}
                   />
                 ))}
               </CardContent>
@@ -110,7 +110,7 @@ const HeaderPage = () => {
                     {UserData.map((user, key) => (
                       <PersonalInfo
                         key={key}
-                        fullname={user.fullname}
+                        name={user.name}
                         dob={user.dob}
                         address={user.address}
                         email={user.email}

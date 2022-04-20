@@ -2,11 +2,11 @@
 import { Typography } from '@mui/material';
 
 // types
-import { UserResumeProps } from 'types/user-resume';
+import { UserProfileProps } from 'types/user-profile';
 
 // ================================|| UI LIST - FOLDER ||================================ //
 
-const AboutMe = ({ about_me }: UserResumeProps) => (
+const AboutMe = ({ about_me }: UserProfileProps) => (
   <Typography variant="subtitle1" color="inherit">
     {about_me}
   </Typography>

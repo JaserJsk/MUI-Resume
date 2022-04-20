@@ -5,6 +5,4 @@ export type Competence = {
   type?: string;
 };
 
-export interface CompetenceProps extends Competence {
-  ski?: any;
-}
+export interface CompetenceProps extends Competence {}

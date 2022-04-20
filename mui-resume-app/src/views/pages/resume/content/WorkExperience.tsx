@@ -66,7 +66,7 @@ const ReadMoreBtn = styled(IconButton)({
 // ==============================|| RESUME - WORK EXPERIENCE ||============================== //
 
 const WorkExperience = ({
-  role,
+  title,
   company,
   description,
   date,
@@ -94,7 +94,7 @@ const WorkExperience = ({
     >
       {open && (
         <>
-          <DialogTitle id="alert-dialog-title">{role}</DialogTitle>
+          <DialogTitle id="alert-dialog-title">{title}</DialogTitle>
           <DialogContent>
             <DialogContentText id="alert-dialog-description">
               <Typography variant="body2" component="span">
@@ -148,7 +148,7 @@ const WorkExperience = ({
           <ListItem>
             <TextContent>
               <TitleSpan sx={{ color: current ? 'secondary.main' : 'none' }}>
-                {role}
+                {title}
               </TitleSpan>
               <span style={{ float: 'right' }}>{company}</span>
               <TruncateSpan>{description}</TruncateSpan>

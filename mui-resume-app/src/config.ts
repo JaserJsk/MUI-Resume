@@ -6,14 +6,15 @@ export const JWT_API = {
   timeout: '1 days',
 };
 
+// Project Settings -> Your Apps -> [Add New Webapp] -> configuration
 export const FIREBASE_API = {
-  apiKey: 'AIzaSyBernKzdSojh_vWXBHt0aRhf5SC9VLChbM',
-  authDomain: 'mui-resume.firebaseapp.com',
-  projectId: 'mui-resume',
-  storageBucket: 'mui-resume.appspot.com',
-  messagingSenderId: '901111229354',
-  appId: '1:901111229354:web:a5ae5aa95486297d69d9d3',
-  measurementId: 'G-MGJHSL8XW3',
+  apiKey: 'AIzaSyBntFCanpoTo4ay37VJnhliXlZK6CS5UxE',
+  authDomain: 'resume-test-299ba.firebaseapp.com',
+  projectId: 'resume-test-299ba',
+  storageBucket: 'resume-test-299ba.appspot.com',
+  messagingSenderId: '502231618449',
+  appId: '1:502231618449:web:c4f4a5ce5a9136dc5dc030',
+  measurementId: 'G-6XCP08C5BW',
 };
 
 export const AUTH0_API = {

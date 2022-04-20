@@ -27,7 +27,7 @@ import { IconEdit, IconTrash } from '@tabler/icons';
 // ==============================|| ACCOUNT - WORKEXP ROW ||============================== //
 
 const ExperienceRow = ({
-  role,
+  title,
   company,
   description,
   date,
@@ -47,7 +47,7 @@ const ExperienceRow = ({
           </IconButton>
         </TableCell>
         <TableCell component="th" scope="row">
-          {role}
+          {title}
         </TableCell>
         <TableCell align="right">{company}</TableCell>
         <TableCell align="right">{date}</TableCell>

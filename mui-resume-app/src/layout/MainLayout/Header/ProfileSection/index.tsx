@@ -33,7 +33,7 @@ import PerfectScrollbar from 'react-perfect-scrollbar';
 import MainCard from 'components/cards/MainCard';
 import Transitions from 'components/extended/Transitions';
 import useAuth from 'hooks/useAuth';
-import User1 from 'assets/images/users/user-round.svg';
+import User from 'assets/images/users/user-round.svg';
 
 // assets
 import { IconLogout, IconSearch, IconSettings } from '@tabler/icons';
@@ -126,7 +126,7 @@ const ProfileSection = () => {
         }}
         icon={
           <Avatar
-            src={User1}
+            src={User}
             sx={{
               ...theme.typography.mediumAvatar,
               margin: '8px 0 8px 8px !important',
@@ -202,7 +202,7 @@ const ProfileSection = () => {
                           </Typography>
                         </Stack>
                         <Typography variant="subtitle2">
-                          <FormattedMessage id="user_role" />
+                          <FormattedMessage id="user_title" />
                         </Typography>
                       </Stack>
                       <OutlinedInput

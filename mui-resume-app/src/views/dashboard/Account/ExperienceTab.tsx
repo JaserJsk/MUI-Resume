@@ -114,7 +114,7 @@ const ExperienceTab = () => (
               {WorkData.map((exp, key) => (
                 <ExperienceRow
                   key={key}
-                  role={exp.role}
+                  title={exp.title}
                   company={exp.company}
                   description={exp.description}
                   date={exp.date}

@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "fullname": "John Doe",
-    "role": "Fullstack Developer",
+    "name": "John Doe",
+    "title": "Fullstack Developer",
     "dob": "05 Sep 1986",
     "address": "Border Street, Clinton Township, MI 78035",
     "email": "john.doe@company.com",
     "phone": "+46 256 251 02 56",
-    "photo": "profile-user.png",
+    "avatar": "profile-user.png",
     "hunting": true,
     "freelance": true,
     "about_me": "Set this to 495 characters - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut pharetra mi. Fusce malesuada vulputate erat, ac luctus ipsum varius vel. Donec ac velit vel lacus malesuada consequat a non dolor. In massa nibh, semper in nunc vitae, cursus sollicitudin eros. Nam volutpat, mauris venenatis pharetra rhoncus, ante erat tincidunt lectus, iden vehicula lorem metus eu mauris. Nulla posuere lorem ex, in mattis nisl vulputate nec. Nullam pellentesque ultrices eros soll."

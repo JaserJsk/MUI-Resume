@@ -6,6 +6,4 @@ export type Education = {
   date?: string;
 };
 
-export interface EducationProps extends Education {
-  exp?: any;
-}
+export interface EducationProps extends Education {}

@@ -2,7 +2,7 @@
 import { Grid, List, ListItem, Typography } from '@mui/material';
 
 // types
-import { UserResumeProps } from 'types/user-resume';
+import { UserProfileProps } from 'types/user-profile';
 
 // third party
 import { FormattedMessage } from 'react-intl';
@@ -10,13 +10,13 @@ import { FormattedMessage } from 'react-intl';
 // ================================|| RESUME - PERSONAL INFO ||================================ //
 
 const PersonalInfo = ({
-  fullname,
+  name: fullname,
   dob,
   address,
   email,
   phone,
   freelance,
-}: UserResumeProps) => {
+}: UserProfileProps) => {
   const okFreelance = freelance;
 
   return (

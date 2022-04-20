@@ -27,7 +27,7 @@ import AnimateButton from 'components/extended/AnimateButton';
 import { gridSpacing } from 'store/constant';
 
 // assets
-import Avatar1 from 'assets/images/profile/profile-user.png';
+import UserAvatar from 'assets/images/profile/profile-user.png';
 
 // ==============================|| ACCOUNT - PROFILE TAB ||============================== //
 
@@ -58,8 +58,8 @@ const ProfileTab = () => {
           <Grid container spacing={2}>
             <Grid item xs={12}>
               <Avatar
-                alt="User 1"
-                src={Avatar1}
+                alt="Current User"
+                src={UserAvatar}
                 sx={{ width: 100, height: 100, margin: '0 auto' }}
               />
             </Grid>
@@ -167,7 +167,7 @@ const ProfileTab = () => {
                 </InputLabel>
                 <OutlinedInput
                   type="text"
-                  defaultValue="john.doe@company.com"
+                  defaultValue={user?.email}
                   label={<FormattedMessage id="email_address" />}
                 />
               </FormControl>

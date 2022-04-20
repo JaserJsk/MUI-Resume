@@ -3,8 +3,7 @@ import { useTheme, styled } from '@mui/material/styles';
 import { Button, Chip, Fab, Grid, Typography } from '@mui/material';
 
 // types
-import { UserResumeProps } from 'types/user-resume';
-
+import { UserProfileProps } from 'types/user-profile';
 // third party
 import { FormattedMessage } from 'react-intl';
 
@@ -21,7 +20,12 @@ import ChatBubbleTwoToneIcon from '@mui/icons-material/ChatBubbleTwoTone';
 const photoImage = require.context('assets/images/profile', true);
 
 // ==============================|| RESUME - USER PROFILE ||============================== //
-const UserProfile = ({ fullname, role, hunting, photo }: UserResumeProps) => {
+const UserProfile = ({
+  name,
+  title,
+  hunting,
+  avatar: photo,
+}: UserProfileProps) => {
   const theme = useTheme();
   const profilePhoto = photo && photoImage(`./${photo}`).default;
 
@@ -78,7 +82,7 @@ const UserProfile = ({ fullname, role, hunting, photo }: UserResumeProps) => {
     <Grid container spacing={gridSpacing}>
       <Grid item xs={12}>
         <Avatar
-          alt={fullname}
+          alt={name}
           src={profilePhoto}
           sx={{ width: 160, height: 160, m: '30px auto 0' }}
         />
@@ -86,10 +90,10 @@ const UserProfile = ({ fullname, role, hunting, photo }: UserResumeProps) => {
       {/* ======================================================= */}
       <Grid item xs={12} alignItems="center">
         <Grid item xs={12}>
-          <Typography variant="h4">{fullname}</Typography>
+          <Typography variant="h4">{name}</Typography>
         </Grid>
         <Grid item xs={12}>
-          <Typography variant="body2">{role}</Typography>
+          <Typography variant="body2">{title}</Typography>
         </Grid>
         <Grid item xs={12} sx={{ mt: 2 }}>
           {jobHunting ? (

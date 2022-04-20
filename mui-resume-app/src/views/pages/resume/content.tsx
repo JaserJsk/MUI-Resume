@@ -105,7 +105,7 @@ const ContentPage = () => {
                     {WorkData.map((exp, key) => (
                       <WorkExperience
                         key={key}
-                        role={exp.role}
+                        title={exp.title}
                         company={exp.company}
                         description={exp.description}
                         date={exp.date}
