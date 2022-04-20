@@ -322,7 +322,7 @@ const ProfileSection = () => {
                               handleListItemClick(
                                 event,
                                 0,
-                                '/user/account-profile/profile1'
+                                '/dashboard/account'
                               )
                             }
                           >
@@ -348,7 +348,9 @@ const ProfileSection = () => {
                             </ListItemIcon>
                             <ListItemText
                               primary={
-                                <Typography variant="body2">Logout</Typography>
+                                <Typography variant="body2">
+                                  <FormattedMessage id="logout" />
+                                </Typography>
                               }
                             />
                           </ListItemButton>

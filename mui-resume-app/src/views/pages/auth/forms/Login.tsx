@@ -127,6 +127,7 @@ const FirebaseLogin = ({ loginProp, ...others }: { loginProp?: number }) => {
               }}
               disableRipple
               disabled
+              style={{ textTransform: 'uppercase' }}
             >
               <FormattedMessage id="or_use" />
             </Button>

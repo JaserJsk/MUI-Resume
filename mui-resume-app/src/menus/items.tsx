@@ -2,11 +2,12 @@
 import { FormattedMessage } from 'react-intl';
 
 // assets
-import { IconHome } from '@tabler/icons';
+import { IconArrowBack, IconClipboard } from '@tabler/icons';
 
 // constant
 const icons = {
-  IconHome,
+  IconArrowBack,
+  IconClipboard,
 };
 
 // ==============================|| SAMPLE PAGE & DOCUMENTATION MENU ITEMS ||============================== //
@@ -17,11 +18,19 @@ const items = {
   type: 'group',
   children: [
     {
-      id: 'default',
-      title: <FormattedMessage id="default" />,
+      id: 'main',
+      title: <FormattedMessage id="to_frontpage" />,
       type: 'item',
-      url: '/dashboard/default',
-      icon: icons.IconHome,
+      url: '/',
+      icon: icons.IconArrowBack,
+      breadcrumbs: false,
+    },
+    {
+      id: 'account',
+      title: <FormattedMessage id="account" />,
+      type: 'item',
+      url: '/dashboard/account',
+      icon: icons.IconClipboard,
       breadcrumbs: false,
     },
   ],

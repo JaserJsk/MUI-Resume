@@ -52,7 +52,7 @@ const Sidebar = ({ window }: SidebarProps) => {
         <MenuList />
         <Stack direction="row" justifyContent="center" sx={{ mb: 2, mt: 4 }}>
           <Chip
-            label={process.env.REACT_APP_VERSION}
+            label="MUI CORE V5.6.0"
             disabled
             chipcolor="secondary"
             size="small"

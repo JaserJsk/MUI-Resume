@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "company": "Company A",
+    "role": "Fullstack Developer",
+    "date": "Jan 2020 - Mars 2022",
+    "current": true,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut pharetra mi. Fusce malesuada vulputate erat, ac luctus ipsum varius vel. Donec ac velit vel lacus malesuada consequat a non dolor. In massa nibh, semper in nunc vitae, cursus sollicitudin eros. Nam volutpat, mauris venenatis pharetra rhoncus, ante erat tincidunt lectus, id vehicula lorem metus eu mauris. Nulla posuere lorem ex, in mattis nisl vulputate nec. Nullam pellentesque ultricies eros sollicitudin suscipit."
+  },
+  {
+    "id": 2,
+    "company": "Company B",
+    "role": "Systems Analyst",
+    "date": "Feb 2017 - Dec 2019",
+    "current": false,
+    "description": "Nullam pharetra, est non accumsan dapibus, augue felis ultricies lacus, vitae egestas augue nisl id est. Quisque lobortis venenatis dui id dapibus. Nulla sit amet nisl nec ex mollis vestibulum ac eget odio. Quisque sapien libero, ultricies hendrerit accumsan ac, tincidunt vitae ligula. Mauris sit amet eleifend magna. Nunc lobortis eget arcu a egestas. Curabitur congue pharetra odio et venenatis. Nunc gravida gravida libero, a ultrices justo tempus ut. Quisque lobortis aliquam orci at facilisis. Sed in neque rutrum, congue elit eget, consequat magna. Ut semper dolor vitae nunc suscipit bibendum. In eros augue, convallis quis libero ac, vestibulum efficitur arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi orci dolor, sollicitudin id nisl ac, suscipit pellentesque purus. In sit amet elit sit amet justo pellentesque accumsan."
+  },
+  {
+    "id": 3,
+    "company": "Company C",
+    "role": "Web Developer",
+    "date": "May 2015 - Nov 2016",
+    "current": false,
+    "description": "Nunc rutrum facilisis malesuada. Fusce tristique vel purus in bibendum. Integer elementum, nisl nec commodo vestibulum, lorem sapien euismod risus, eget ullamcorper risus ante mattis nulla. Aliquam et arcu cursus, rhoncus erat vel, aliquet justo. Sed gravida at justo at finibus. Aenean convallis accumsan leo, ut consequat quam accumsan maximus. Morbi quam lectus, viverra a fringilla ut, ultricies non erat. Quisque mollis ac nisi a vehicula. Phasellus in tellus id arcu sodales vulputate nec sit amet mi. Aliquam sit amet diam vehicula, convallis felis in, interdum ligula. Nam eleifend venenatis ligula eu rutrum. Mauris elementum lectus vel purus blandit, in finibus urna vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu fringilla risus. Sed vel placerat sapien. Praesent eu elit dapibus, vestibulum justo id, suscipit nunc."
+  }
+]

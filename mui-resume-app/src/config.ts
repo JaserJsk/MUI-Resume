@@ -30,7 +30,7 @@ export const AWS_API = {
 // like '/mui-resume/react/default'
 export const BASE_PATH = '';
 
-export const DASHBOARD_PATH = '/dashboard/default';
+export const DASHBOARD_PATH = '/dashboard/account';
 
 const config: ConfigProps = {
   fontFamily: `'Roboto', sans-serif`,

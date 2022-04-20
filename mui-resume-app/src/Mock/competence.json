@@ -1,0 +1,54 @@
+{
+  "language": [
+    {
+      "id": 1,
+      "skill_name": "English",
+      "skill_level": 90,
+      "type": "Language"
+    },
+    {
+      "id": 1,
+      "skill_name": "Swedish",
+      "skill_level": 100,
+      "type": "Language"
+    },
+    {
+      "id": 1,
+      "skill_name": "Danish",
+      "skill_level": 60,
+      "type": "Language"
+    }
+  ],
+  "expertise": [
+    {
+      "id": 1,
+      "skill_name": "HTML5 & CSS",
+      "skill_level": 90,
+      "type": "Expertise"
+    },
+    {
+      "id": 2,
+      "skill_name": "Javascript & React",
+      "skill_level": 70,
+      "type": "Expertise"
+    },
+    {
+      "id": 3,
+      "skill_name": "ASP.NET C#",
+      "skill_level": 70,
+      "type": "Expertise"
+    },
+    {
+      "id": 4,
+      "skill_name": "T-SQL Microsoft Server",
+      "skill_level": 60,
+      "type": "Expertise"
+    },
+    {
+      "id": 5,
+      "skill_name": "Flutter / Dart",
+      "skill_level": 70,
+      "type": "Expertise"
+    }
+  ]
+}

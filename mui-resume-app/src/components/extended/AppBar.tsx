@@ -28,7 +28,12 @@ import { FormattedMessage } from 'react-intl';
 import Logo from 'components/Logo';
 
 // assets
-import { IconBook, IconDashboard, IconHome2 } from '@tabler/icons';
+import {
+  IconHome,
+  IconClipboard,
+  IconDashboard,
+  IconBook,
+} from '@tabler/icons';
 import MenuIcon from '@mui/icons-material/Menu';
 
 // elevation scroll
@@ -87,15 +92,13 @@ const AppBar = ({ ...others }) => {
               sx={{ display: { xs: 'none', sm: 'block' } }}
               spacing={2}
             >
-              <Button color="inherit" component={Link} href="#" target="_blank">
+              <Button color="inherit" component={Link} href="/">
                 <FormattedMessage id="home" />
               </Button>
-              <Button
-                color="inherit"
-                component={RouterLink}
-                to="/login"
-                target="_blank"
-              >
+              <Button color="inherit" component={Link} href="/resume">
+                <FormattedMessage id="resume" />
+              </Button>
+              <Button color="inherit" component={RouterLink} to="/login">
                 <FormattedMessage id="dashboard" />
               </Button>
               <Button
@@ -130,28 +133,34 @@ const AppBar = ({ ...others }) => {
                     onKeyDown={drawerToggler(false)}
                   >
                     <List>
-                      <Link
-                        style={{ textDecoration: 'none' }}
-                        href="#"
-                        target="_blank"
-                      >
+                      <Link style={{ textDecoration: 'none' }} href="/">
                         <ListItemButton component="a">
                           <ListItemIcon>
-                            <IconHome2 />
+                            <IconHome />
                           </ListItemIcon>
-                          <ListItemText primary="Home" />
+                          <ListItemText
+                            primary={<FormattedMessage id="home" />}
+                          />
                         </ListItemButton>
                       </Link>
-                      <Link
-                        style={{ textDecoration: 'none' }}
-                        href="/login"
-                        target="_blank"
-                      >
+                      <Link style={{ textDecoration: 'none' }} href="/resume">
+                        <ListItemButton component="a">
+                          <ListItemIcon>
+                            <IconClipboard />
+                          </ListItemIcon>
+                          <ListItemText
+                            primary={<FormattedMessage id="resume" />}
+                          />
+                        </ListItemButton>
+                      </Link>
+                      <Link style={{ textDecoration: 'none' }} href="/login">
                         <ListItemButton component="a">
                           <ListItemIcon>
                             <IconDashboard />
                           </ListItemIcon>
-                          <ListItemText primary="Dashboard" />
+                          <ListItemText
+                            primary={<FormattedMessage id="dashboard" />}
+                          />
                         </ListItemButton>
                       </Link>
                       <Link

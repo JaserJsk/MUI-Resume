@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "school": "School A",
+    "degree": "Fullstack Developer",
+    "date": "Jan 2020 - Mars 2022",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut pharetra mi. Fusce malesuada vulputate erat, ac luctus ipsum varius vel. Donec ac velit vel lacus malesuada consequat a non dolor. In massa nibh, semper in nunc vitae, cursus sollicitudin eros. Nam volutpat, mauris venenatis pharetra rhoncus, ante erat tincidunt lectus, id vehicula lorem metus eu mauris. Nulla posuere lorem ex, in mattis nisl vulputate nec. Nullam pellentesque ultricies eros sollicitudin suscipit."
+  },
+  {
+    "id": 2,
+    "school": "School B",
+    "degree": "Fullstack Developer",
+    "date": "Jan 2020 - Mars 2022",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut pharetra mi. Fusce malesuada vulputate erat, ac luctus ipsum varius vel. Donec ac velit vel lacus malesuada consequat a non dolor. In massa nibh, semper in nunc vitae, cursus sollicitudin eros. Nam volutpat, mauris venenatis pharetra rhoncus, ante erat tincidunt lectus, id vehicula lorem metus eu mauris. Nulla posuere lorem ex, in mattis nisl vulputate nec. Nullam pellentesque ultricies eros sollicitudin suscipit."
+  },
+  {
+    "id": 3,
+    "school": "School C",
+    "degree": "Fullstack Developer",
+    "date": "Jan 2020 - Mars 2022",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut pharetra mi. Fusce malesuada vulputate erat, ac luctus ipsum varius vel. Donec ac velit vel lacus malesuada consequat a non dolor. In massa nibh, semper in nunc vitae, cursus sollicitudin eros. Nam volutpat, mauris venenatis pharetra rhoncus, ante erat tincidunt lectus, id vehicula lorem metus eu mauris. Nulla posuere lorem ex, in mattis nisl vulputate nec. Nullam pellentesque ultricies eros sollicitudin suscipit."
+  }
+]

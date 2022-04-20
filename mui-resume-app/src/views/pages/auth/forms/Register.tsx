@@ -134,6 +134,7 @@ const FirebaseRegister = ({ ...others }) => {
               }}
               disableRipple
               disabled
+              style={{ textTransform: 'uppercase' }}
             >
               <FormattedMessage id="or_use" />
             </Button>

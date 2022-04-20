@@ -61,6 +61,7 @@ const HeaderPage = () => {
               [theme.breakpoints.down('lg')]: { pr: 0, textAlign: 'center' },
             }}
           >
+            {/* ======================================================= */}
             <Grid item xs={12}>
               <motion.div
                 initial={{ opacity: 0, translateY: 550 }}
@@ -89,6 +90,7 @@ const HeaderPage = () => {
                 </Typography>
               </motion.div>
             </Grid>
+            {/* ======================================================= */}
             <Grid item xs={12}>
               <motion.div
                 initial={{ opacity: 0, translateY: 550 }}
@@ -114,6 +116,7 @@ const HeaderPage = () => {
                 </Typography>
               </motion.div>
             </Grid>
+            {/* ======================================================= */}
             <Grid item xs={12} sx={{ my: 3.25 }}>
               <motion.div
                 initial={{ opacity: 0, translateY: 550 }}
@@ -134,8 +137,7 @@ const HeaderPage = () => {
                     <AnimateButton>
                       <Button
                         component={RouterLink}
-                        to="/dashboard/default"
-                        target="_blank"
+                        to="/dashboard/account"
                         size="large"
                         variant="contained"
                         color="secondary"
@@ -147,6 +149,7 @@ const HeaderPage = () => {
                 </Grid>
               </motion.div>
             </Grid>
+            {/* ======================================================= */}
             <Grid item xs={12}>
               <motion.div
                 initial={{ opacity: 0, translateY: 550 }}
@@ -238,6 +241,7 @@ const HeaderPage = () => {
                 </Grid>
               </motion.div>
             </Grid>
+            {/* ======================================================= */}
           </Grid>
         </Grid>
       </Grid>
