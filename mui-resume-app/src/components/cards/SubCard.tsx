@@ -1,6 +1,6 @@
 import React, { ReactNode, Ref } from 'react';
 
-// material-ui
+// Material UI
 import { useTheme } from '@mui/material/styles';
 import {
   Card,

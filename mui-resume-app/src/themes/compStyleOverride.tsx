@@ -1,4 +1,4 @@
-// project imports
+// Project Imports
 import { Theme } from '@mui/material/styles';
 
 export default function componentStyleOverrides(

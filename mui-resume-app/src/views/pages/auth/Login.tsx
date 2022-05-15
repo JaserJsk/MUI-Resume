@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 
-// material-ui
+// Material UI
 import { useTheme } from '@mui/material/styles';
 import { Divider, Grid, Stack, Typography, useMediaQuery } from '@mui/material';
 
-// third party
+// Third Party
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import AuthWrapper from './wrappers/AuthWrapper';
 import AuthCardWrapper from './wrappers/AuthCardWrapper';
 import AuthLogin from './forms/Login';
@@ -15,9 +15,7 @@ import Logo from 'components/Logo';
 import AuthFooter from 'components/cards/AuthFooter';
 import useAuth from 'hooks/useAuth';
 
-// assets
-
-// ================================|| AUTH3 - LOGIN ||================================ //
+// ================================|| AUTH - LOGIN ||================================ //
 
 const Login = () => {
   const theme = useTheme();

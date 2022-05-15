@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// material-ui
+// Material UI
 import {
   Grid,
   Stack,
@@ -18,11 +18,11 @@ import {
   DialogActions,
 } from '@mui/material';
 
-// third-party
+// Third Party
 import NumberFormat from 'react-number-format';
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import AnimateButton from 'components/extended/AnimateButton';
 
 // ==============================|| RESUME - WORK EXPERIENCE ||============================== //

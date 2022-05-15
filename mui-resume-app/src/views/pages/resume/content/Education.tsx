@@ -1,6 +1,6 @@
 import React from 'react';
 
-// material-ui
+// Material UI
 import { styled } from '@mui/material/styles';
 import {
   Grid,
@@ -17,18 +17,20 @@ import {
   DialogActions,
 } from '@mui/material';
 
-// types
+// Types
 import { EducationProps } from 'types/education';
 
-// third-party
+// Third Party
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import Avatar from 'components/extended/Avatar';
 
-// assets
+// Assets
 import School from '@mui/icons-material/SchoolTwoTone';
 import OpenInNewIcon from '@mui/icons-material/OpenInNewTwoTone';
+
+// ==============================|| RESUME - EDUCATION ||============================== //
 
 const VerticalLine = styled(Typography)({
   marginTop: 10,

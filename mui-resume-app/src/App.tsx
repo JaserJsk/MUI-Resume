@@ -1,7 +1,7 @@
 // routing
 import Routes from 'routes';
 
-// project imports
+// Project Imports
 import Locales from 'components/Locales';
 import NavigationScroll from 'layout/NavigationScroll';
 import RTLLayout from 'components/RTLLayout';

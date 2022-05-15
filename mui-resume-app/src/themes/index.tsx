@@ -1,6 +1,6 @@
 import { useMemo, ReactNode } from 'react';
 
-// material-ui
+// Material UI
 import { CssBaseline, StyledEngineProvider } from '@mui/material';
 import {
   createTheme,
@@ -17,7 +17,7 @@ import Typography from './typography';
 import componentStyleOverrides from './compStyleOverride';
 import customShadows from './shadows';
 
-// types
+// Types
 import { CustomShadowProps } from 'types/default-theme';
 import { TypographyOptions } from '@mui/material/styles/createTypography';
 

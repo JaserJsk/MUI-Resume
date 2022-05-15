@@ -1,6 +1,6 @@
 import React from 'react';
 
-// material-ui
+// Material UI
 import { styled } from '@mui/material/styles';
 import {
   Grid,
@@ -17,19 +17,21 @@ import {
   DialogActions,
 } from '@mui/material';
 
-// types
+// Types
 import { ExperienceProps } from 'types/experience';
 
-// third-party
+// Third Party
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import Avatar from 'components/extended/Avatar';
 
-// assets
+// Assets
 import WorkIcon from '@mui/icons-material/WorkTwoTone';
 import WorkOffIcon from '@mui/icons-material/WorkOffTwoTone';
 import OpenInNewIcon from '@mui/icons-material/OpenInNewTwoTone';
+
+// ==============================|| RESUME - WORK EXPERIENCE ||============================== //
 
 // Custom Styles
 const VerticalLine = styled(Typography)({
@@ -62,8 +64,6 @@ const TruncateSpan = styled('span')({
 const ReadMoreBtn = styled(IconButton)({
   marginTop: 5,
 });
-
-// ==============================|| RESUME - WORK EXPERIENCE ||============================== //
 
 const WorkExperience = ({
   title,

@@ -1,13 +1,13 @@
-// material-ui
+// Material UI
 import { Stack, IconButton, TableCell, TableRow, Tooltip } from '@mui/material';
 
-// types
+// Types
 import { CompetenceProps } from 'types/competence';
 
-// third-party
+// Third Party
 import { FormattedMessage } from 'react-intl';
 
-// assets
+// Assets
 import { IconEdit, IconTrash } from '@tabler/icons';
 
 // ==============================|| ACCOUNT - LANGUAGE ROW ||============================== //

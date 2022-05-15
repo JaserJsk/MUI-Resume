@@ -1,8 +1,8 @@
-// material-ui
+// Material UI
 import { createTheme } from '@mui/material/styles';
 import { PaletteMode } from '@mui/material';
 
-// assets
+// Assets
 import defaultColor from 'assets/scss/_blueTheme.module.scss';
 import indigoTheme from 'assets/scss/_indigoTheme.module.scss';
 import purpleheme from 'assets/scss/_purpleTheme.module.scss';
@@ -10,7 +10,7 @@ import redTheme from 'assets/scss/_redTheme.module.scss';
 import greenTheme from 'assets/scss/_greenTheme.module.scss';
 import amberTheme from 'assets/scss/_amberTheme.module.scss';
 
-// types
+// Types
 import { ColorProps } from 'types';
 
 // ==============================|| DEFAULT THEME - PALETTE  ||============================== //

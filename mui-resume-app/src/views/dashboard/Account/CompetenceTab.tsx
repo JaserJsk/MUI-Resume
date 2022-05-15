@@ -1,4 +1,4 @@
-// material-ui
+// Material UI
 import {
   Grid,
   Stack,
@@ -18,10 +18,10 @@ import {
 
 import CompetenceData from 'Mock/competence.json';
 
-// third-party
+// Third Party
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import { gridSpacing } from 'store/constant';
 import SubCard from 'components/cards/SubCard';
 import AnimateButton from 'components/extended/AnimateButton';
@@ -30,7 +30,7 @@ import SkillRow from 'views/dashboard/Account/rows/ExpertiseRow';
 
 // ==============================|| ACCOUNT - SKILLS TAB ||============================== //
 
-// autocomplete options
+// Autocomplete Pptions
 const skillTypes = [
   { label: 'Language', id: 1 },
   { label: 'Expertise', id: 2 },

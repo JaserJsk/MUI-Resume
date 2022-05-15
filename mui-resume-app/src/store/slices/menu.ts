@@ -1,4 +1,4 @@
-// types
+// Types
 import { MenuProps } from 'types/menu';
 import { createSlice } from '@reduxjs/toolkit';
 

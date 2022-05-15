@@ -36,9 +36,10 @@
 
   "facebook": "Facebook",
   "twitter": "Twitter",
+  "linkedin": "Linkedin",
 
   "to_frontpage": "Back to front page",
-  "account": "Account",
+  "update_info": "Update your information",
   "home": "Home",
   "resume": "Resume",
   "dashboard": "Dashboard",

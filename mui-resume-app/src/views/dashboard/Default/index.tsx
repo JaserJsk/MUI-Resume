@@ -1,7 +1,7 @@
-// material-ui
+// Material UI
 import { Typography } from '@mui/material';
 
-// project imports
+// Project Imports
 import MainCard from 'components/cards/MainCard';
 
 // ==============================|| SAMPLE PAGE ||============================== //

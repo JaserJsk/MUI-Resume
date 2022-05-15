@@ -1,4 +1,4 @@
-// types
+// Types
 import { ConfigProps } from 'types/config';
 
 export const JWT_API = {

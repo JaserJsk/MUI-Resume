@@ -8,11 +8,11 @@ import jwtDecode from 'jwt-decode';
 import { LOGIN, LOGOUT } from 'store/actions';
 import accountReducer from 'store/accountReducer';
 
-// project imports
+// Project Imports
 import Loader from 'components/Loader';
 import axios from 'utils/axios';
 
-// types
+// Types
 import { KeyedObject } from 'types';
 import { InitialLoginContextProps, JWTContextType } from 'types/auth';
 

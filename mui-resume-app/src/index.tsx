@@ -1,11 +1,11 @@
 import ReactDOM from 'react-dom';
 
-// third party
+// Third Party
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 
-// project imports
+// Project Imports
 import App from 'App';
 import { BASE_PATH } from 'config';
 import { store, persister } from 'store';
@@ -13,7 +13,7 @@ import * as serviceWorker from 'serviceWorker';
 import reportWebVitals from 'reportWebVitals';
 import { ConfigProvider } from 'contexts/ConfigContext';
 
-// style + assets
+// Style & Assets
 import 'assets/scss/style.scss';
 
 // ==============================|| REACT DOM RENDER  ||============================== //

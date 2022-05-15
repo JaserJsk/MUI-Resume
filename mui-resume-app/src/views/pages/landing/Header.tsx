@@ -1,42 +1,17 @@
 import { Link as RouterLink } from 'react-router-dom';
 
-// material-ui
-import { useTheme /* , styled */ } from '@mui/material/styles';
+// Material UI
+import { useTheme } from '@mui/material/styles';
 import { Box, Button, Container, Grid, Typography } from '@mui/material';
 
-// third party
+// Third Party
 import { FormattedMessage } from 'react-intl';
 import { motion } from 'framer-motion';
 
-// project imports
+// Project Imports
+import { gridSpacing } from 'store/constant';
 import Avatar from 'components/extended/Avatar';
 import AnimateButton from 'components/extended/AnimateButton';
-import { gridSpacing } from 'store/constant';
-
-// assets
-/*
-import dashboard from 'assets/images/landing/dashboard.png';
-import widget1 from 'assets/images/landing/widget-1.png';
-import widget2 from 'assets/images/landing/widget-2.png';
-*/
-
-// styles
-/*
-const HeaderImage = styled('img')(({ theme }) => ({
-  maxWidth: '100%',
-  borderRadius: '20px',
-  transform: 'scale(1.7)',
-  transformOrigin: theme.direction === 'rtl' ? '100% 50%' : '0 50%',
-  [theme.breakpoints.down('lg')]: {
-    transform: 'scale(1.2)',
-  },
-}));
-
-const HeaderAnimationImage = styled('img')({
-  maxWidth: '100%',
-  filter: 'drop-shadow(0px 0px 50px rgb(33 150 243 / 30%))',
-});
-*/
 
 // ==============================|| LANDING - HEADER PAGE ||============================== //
 
@@ -44,7 +19,7 @@ const HeaderPage = () => {
   const theme = useTheme();
 
   return (
-    <Container>
+    <Container maxWidth="xl">
       <Grid
         container
         alignItems="center"
@@ -61,7 +36,6 @@ const HeaderPage = () => {
               [theme.breakpoints.down('lg')]: { pr: 0, textAlign: 'center' },
             }}
           >
-            {/* ======================================================= */}
             <Grid item xs={12}>
               <motion.div
                 initial={{ opacity: 0, translateY: 550 }}
@@ -90,7 +64,6 @@ const HeaderPage = () => {
                 </Typography>
               </motion.div>
             </Grid>
-            {/* ======================================================= */}
             <Grid item xs={12}>
               <motion.div
                 initial={{ opacity: 0, translateY: 550 }}
@@ -116,7 +89,6 @@ const HeaderPage = () => {
                 </Typography>
               </motion.div>
             </Grid>
-            {/* ======================================================= */}
             <Grid item xs={12} sx={{ my: 3.25 }}>
               <motion.div
                 initial={{ opacity: 0, translateY: 550 }}
@@ -149,7 +121,6 @@ const HeaderPage = () => {
                 </Grid>
               </motion.div>
             </Grid>
-            {/* ======================================================= */}
             <Grid item xs={12}>
               <motion.div
                 initial={{ opacity: 0, translateY: 550 }}
@@ -241,7 +212,6 @@ const HeaderPage = () => {
                 </Grid>
               </motion.div>
             </Grid>
-            {/* ======================================================= */}
           </Grid>
         </Grid>
       </Grid>

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-// material-ui
+// Material UI
 import { useTheme } from '@mui/material/styles';
 import { Drawer, Fab, Grid, IconButton, Tooltip } from '@mui/material';
 import { IconSettings } from '@tabler/icons';
@@ -8,7 +8,7 @@ import { IconSettings } from '@tabler/icons';
 // third-party
 import PerfectScrollbar from 'react-perfect-scrollbar';
 
-// project imports
+// Project Imports
 import BorderRadius from './BorderRadius';
 import Layout from './Layout';
 import PresetColor from './PresetColor';

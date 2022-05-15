@@ -1,7 +1,7 @@
-// material-ui
+// Material UI
 import { Link, Typography, Stack } from '@mui/material';
 
-// third party
+// Third Party
 import { FormattedMessage } from 'react-intl';
 
 // ==============================|| FOOTER - AUTHENTICATION 2 & 3 ||============================== //

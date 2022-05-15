@@ -1,4 +1,4 @@
-// material-ui
+// Material UI
 import { useTheme } from '@mui/material/styles';
 import MuiChip, { ChipProps } from '@mui/material/Chip';
 

@@ -8,7 +8,7 @@ import 'firebase/compat/auth';
 import { LOGIN, LOGOUT } from 'store/actions';
 import accountReducer from 'store/accountReducer';
 
-// project imports
+// Project Imports
 import Loader from 'components/Loader';
 import { FIREBASE_API } from 'config';
 import { FirebaseContextType, InitialLoginContextProps } from 'types/auth';

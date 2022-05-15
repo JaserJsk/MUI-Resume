@@ -1,9 +1,9 @@
 import { Suspense, LazyExoticComponent, ComponentType } from 'react';
 
-// material-ui
+// Material UI
 import { LinearProgressProps } from '@mui/material/LinearProgress';
 
-// project imports
+// Project Imports
 import Loader from './Loader';
 
 // ==============================|| LOADABLE - LAZY LOADING ||============================== //

@@ -1,4 +1,4 @@
-// material-ui
+// Material UI
 import { useTheme } from '@mui/material/styles';
 import {
   Box,
@@ -11,12 +11,12 @@ import {
 import { useDispatch } from 'store';
 import { useNavigate } from 'react-router-dom';
 
-// third party
+// Third Party
 import * as Yup from 'yup';
 import { Formik } from 'formik';
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import AnimateButton from 'components/extended/AnimateButton';
 import useAuth from 'hooks/useAuth';
 import useScriptRef from 'hooks/useScriptRef';

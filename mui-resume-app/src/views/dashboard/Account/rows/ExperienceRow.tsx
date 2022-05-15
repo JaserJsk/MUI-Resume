@@ -1,6 +1,6 @@
 import React from 'react';
 
-// material-ui
+// Material UI
 import {
   Box,
   Collapse,
@@ -13,13 +13,13 @@ import {
   Tooltip,
 } from '@mui/material';
 
-// types
+// Types
 import { ExperienceProps } from 'types/experience';
 
-// third-party
+// Third Party
 import { FormattedMessage } from 'react-intl';
 
-// assets
+// Assets
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { IconEdit, IconTrash } from '@tabler/icons';

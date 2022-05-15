@@ -8,15 +8,16 @@ import {
   Card,
 } from '@mui/material';
 
+// Data
 import WorkData from 'Mock/experience.json';
 import EducationData from 'Mock/education.json';
 import CompetenceData from 'Mock/competence.json';
 
-// third party
+// Third Party
 import { motion } from 'framer-motion';
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import { gridSpacing } from 'store/constant';
 import FadeInWhenVisible from 'views/pages/Animation';
 import Expertise from 'views/pages/resume/content/Expertise';

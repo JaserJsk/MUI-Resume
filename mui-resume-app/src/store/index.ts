@@ -8,7 +8,7 @@ import {
 
 import { persistStore } from 'redux-persist';
 
-// project imports
+// Project Imports
 import rootReducer from './reducer';
 
 // ==============================|| REDUX - MAIN STORE ||============================== //

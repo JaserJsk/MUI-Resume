@@ -1,6 +1,6 @@
 import React from 'react';
 
-// material-ui
+// Material UI
 import {
   Avatar,
   Button,
@@ -16,17 +16,17 @@ import {
   RadioGroup,
 } from '@mui/material';
 
-// third-party
+// Third Party
 import NumberFormat from 'react-number-format';
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import useAuth from 'hooks/useAuth';
 import SubCard from 'components/cards/SubCard';
 import AnimateButton from 'components/extended/AnimateButton';
 import { gridSpacing } from 'store/constant';
 
-// assets
+// Assets
 import UserAvatar from 'assets/images/profile/profile-user.png';
 
 // ==============================|| ACCOUNT - PROFILE TAB ||============================== //

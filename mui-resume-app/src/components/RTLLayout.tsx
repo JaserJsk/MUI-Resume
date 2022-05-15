@@ -1,6 +1,6 @@
 import { useEffect, ReactNode } from 'react';
 
-// material-ui
+// Material UI
 import { CacheProvider } from '@emotion/react';
 import createCache, { StylisPlugin } from '@emotion/cache';
 

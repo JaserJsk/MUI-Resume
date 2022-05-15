@@ -1,6 +1,6 @@
 import React, { Ref } from 'react';
 
-// material-ui
+// Material UI
 import { useTheme } from '@mui/material/styles';
 import {
   Card,
@@ -13,7 +13,7 @@ import {
   CardContentProps,
 } from '@mui/material';
 
-// project imports
+// Project Imports
 import { KeyedObject } from 'types';
 
 // constant

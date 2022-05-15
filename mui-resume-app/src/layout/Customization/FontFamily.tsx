@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-// material-ui
+// Material UI
 import { useTheme } from '@mui/material/styles';
 import {
   FormControl,
@@ -9,7 +9,7 @@ import {
   RadioGroup,
 } from '@mui/material';
 
-// project imports
+// Project Imports
 import useConfig from 'hooks/useConfig';
 import SubCard from 'components/cards/SubCard';
 

@@ -8,14 +8,15 @@ import {
   Card,
 } from '@mui/material';
 
+// Data
 import UserData from 'Mock/user.json';
 import CompetenceData from 'Mock/competence.json';
 
-// third party
+// Third Party
 import { motion } from 'framer-motion';
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import { gridSpacing } from 'store/constant';
 import UserProfile from 'views/pages/resume/header/UserProfile';
 import AboutMe from 'views/pages/resume/header/AboutMe';

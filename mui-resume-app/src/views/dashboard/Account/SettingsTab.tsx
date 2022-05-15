@@ -1,4 +1,4 @@
-// material-ui
+// Material UI
 import {
   Button,
   Grid,
@@ -8,16 +8,16 @@ import {
   OutlinedInput,
 } from '@mui/material';
 
-// third-party
+// Third Party
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import { gridSpacing } from 'store/constant';
 import SubCard from 'components/cards/SubCard';
 import AnimateButton from 'components/extended/AnimateButton';
 import Control from 'components/extended/Form/FormControl';
 
-// assets
+// Assets
 import {
   IconBrandFacebook,
   IconBrandTwitter,

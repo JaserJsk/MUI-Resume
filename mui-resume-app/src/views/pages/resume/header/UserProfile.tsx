@@ -1,25 +1,25 @@
-// material-ui
+// Material UI
 import { useTheme, styled } from '@mui/material/styles';
 import { Button, Chip, Fab, Grid, Typography } from '@mui/material';
 
-// types
+// Types
 import { UserProfileProps } from 'types/user-profile';
-// third party
+
+// Third Party
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import { gridSpacing } from 'store/constant';
 import Avatar from 'components/extended/Avatar';
 
-// assets
+// Assets
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ChatBubbleTwoToneIcon from '@mui/icons-material/ChatBubbleTwoTone';
 
-const photoImage = require.context('assets/images/profile', true);
-
 // ==============================|| RESUME - USER PROFILE ||============================== //
+
 const UserProfile = ({
   name,
   title,
@@ -27,6 +27,7 @@ const UserProfile = ({
   avatar: photo,
 }: UserProfileProps) => {
   const theme = useTheme();
+  const photoImage = require.context('assets/images/profile', true);
   const profilePhoto = photo && photoImage(`./${photo}`).default;
 
   const jobHunting = hunting;

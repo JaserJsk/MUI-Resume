@@ -4,7 +4,7 @@ import { createContext, ReactNode } from 'react';
 import defaultConfig from 'config';
 import useLocalStorage from 'hooks/useLocalStorage';
 
-// types
+// Types
 import { PaletteMode } from '@mui/material';
 import { CustomizationProps } from 'types/config';
 

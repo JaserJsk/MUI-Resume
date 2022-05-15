@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 
-// material-ui
+// Material UI
 import { useTheme } from '@mui/material/styles';
 import { Divider, Grid, Typography, useMediaQuery } from '@mui/material';
 
-// third party
+// Third Party
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import AuthWrapper from './wrappers/AuthWrapper';
 import AuthCardWrapper from './wrappers/AuthCardWrapper';
 import Logo from 'components/Logo';
@@ -15,7 +15,7 @@ import AuthForgotPassword from './forms/ForgotPassword';
 import AuthFooter from 'components/cards/AuthFooter';
 import useAuth from 'hooks/useAuth';
 
-// ============================|| AUTH3 - FORGOT PASSWORD ||============================ //
+// ============================|| AUTH - FORGOT PASSWORD ||============================ //
 
 const ForgotPassword = () => {
   const theme = useTheme();

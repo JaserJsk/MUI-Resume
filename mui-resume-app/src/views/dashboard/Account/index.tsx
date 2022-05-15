@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// material-ui
+// Material UI
 import { Box, Tab, Tabs } from '@mui/material';
 
-// third-party
+// Third Party
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import { TabsProps } from 'types';
 import MainCard from 'components/cards/MainCard';
 import ProfileTab from './ProfileTab';
@@ -16,7 +16,8 @@ import EducationTab from './EducationTab';
 import CompetenceTab from './CompetenceTab';
 import SettingsTab from './SettingsTab';
 
-// tabs
+// ==============================|| ACCOUNT - TABS ||============================== //
+
 function TabPanel({ children, value, index, ...other }: TabsProps) {
   return (
     <div
@@ -38,8 +39,6 @@ function a11yProps(index: number) {
   };
 }
 
-// ==============================|| ACCOUNT ||============================== //
-
 const Account = () => {
   const [value, setValue] = React.useState(0);
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -47,7 +46,7 @@ const Account = () => {
   };
 
   return (
-    <MainCard title={<FormattedMessage id="account" />}>
+    <MainCard title={<FormattedMessage id="update_info" />}>
       <div>
         <Tabs
           value={value}

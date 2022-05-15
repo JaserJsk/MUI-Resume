@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// material-ui
+// Material UI
 import { useTheme } from '@mui/material/styles';
 import {
   Box,
@@ -21,21 +21,20 @@ import {
   useMediaQuery,
 } from '@mui/material';
 
-// third party
+// Third Party
 import * as Yup from 'yup';
 import { Formik } from 'formik';
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import useConfig from 'hooks/useConfig';
 import useAuth from 'hooks/useAuth';
 import useScriptRef from 'hooks/useScriptRef';
 import AnimateButton from 'components/extended/AnimateButton';
 
-// assets
+// Assets
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
-
 import Google from 'assets/images/icons/social-google.svg';
 
 // ============================|| FIREBASE - LOGIN ||============================ //

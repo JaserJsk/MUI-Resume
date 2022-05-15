@@ -1,11 +1,11 @@
 // third-party
 import { createSlice } from '@reduxjs/toolkit';
 
-// project imports
+// Project Imports
 // import axios from 'utils/axios';
 // import { dispatch } from '../index';
 
-// types
+// Types
 import { DefaultRootStateProps } from 'types';
 
 // ----------------------------------------------------------------------

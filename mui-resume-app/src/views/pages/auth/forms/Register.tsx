@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-// material-ui
+// Material UI
 import { useTheme } from '@mui/material/styles';
 import {
   Box,
@@ -21,12 +21,15 @@ import {
   useMediaQuery,
 } from '@mui/material';
 
-// third party
+// Types
+import { StringColorProps } from 'types';
+
+// Third Party
 import * as Yup from 'yup';
 import { Formik } from 'formik';
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import useAuth from 'hooks/useAuth';
 import useConfig from 'hooks/useConfig';
 import useScriptRef from 'hooks/useScriptRef';
@@ -34,10 +37,9 @@ import Google from 'assets/images/icons/social-google.svg';
 import AnimateButton from 'components/extended/AnimateButton';
 import { strengthColor, strengthIndicator } from 'utils/password-strength';
 
-// assets
+// Assets
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
-import { StringColorProps } from 'types';
 
 // ===========================|| FIREBASE - REGISTER ||=========================== //
 

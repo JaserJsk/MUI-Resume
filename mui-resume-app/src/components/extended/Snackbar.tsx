@@ -1,6 +1,6 @@
 import { SyntheticEvent } from 'react';
 
-// material-ui
+// Material UI
 import {
   Alert,
   Button,
@@ -12,7 +12,7 @@ import {
 } from '@mui/material';
 import MuiSnackbar from '@mui/material/Snackbar';
 
-// assets
+// Assets
 import CloseIcon from '@mui/icons-material/Close';
 
 import { KeyedObject } from 'types';

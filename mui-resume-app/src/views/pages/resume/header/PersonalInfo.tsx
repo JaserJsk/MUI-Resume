@@ -1,10 +1,10 @@
-// material-ui
+// Material UI
 import { Grid, List, ListItem, Typography } from '@mui/material';
 
-// types
+// Types
 import { UserProfileProps } from 'types/user-profile';
 
-// third party
+// Third Party
 import { FormattedMessage } from 'react-intl';
 
 // ================================|| RESUME - PERSONAL INFO ||================================ //

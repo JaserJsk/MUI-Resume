@@ -1,4 +1,4 @@
-// material-ui
+// Material UI
 import {
   Grid,
   Stack,
@@ -17,16 +17,17 @@ import {
 
 import EducationData from 'Mock/education.json';
 
-// third-party
+// Third Party
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import { gridSpacing } from 'store/constant';
 import SubCard from 'components/cards/SubCard';
 import AnimateButton from 'components/extended/AnimateButton';
 import EducationRow from 'views/dashboard/Account/rows/EducationRow';
 
 // ==============================|| ACCOUNT - EDUCATION TAB ||============================== //
+
 const EducationTab = () => (
   <Grid container spacing={gridSpacing}>
     <Grid item xs={12}>

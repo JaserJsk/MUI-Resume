@@ -1,9 +1,9 @@
-// material-ui
+// Material UI
 import { useTheme } from '@mui/material/styles';
 import { Avatar, Grid } from '@mui/material';
 import { IconChecks } from '@tabler/icons';
 
-// project imports
+// Project Imports
 import useConfig from 'hooks/useConfig';
 import SubCard from 'components/cards/SubCard';
 
@@ -15,7 +15,7 @@ import redTheme from 'assets/scss/_redTheme.module.scss';
 import greenTheme from 'assets/scss/_greenTheme.module.scss';
 import amberTheme from 'assets/scss/_amberTheme.module.scss';
 
-// types
+// Types
 import { StringColorProps } from 'types';
 
 interface Props {

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-// third party
+// Third Party
 import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from 'framer-motion';
 

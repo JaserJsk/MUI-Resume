@@ -7,7 +7,7 @@ import { Auth0Client } from '@auth0/auth0-spa-js';
 import { LOGIN, LOGOUT } from 'store/actions';
 import accountReducer from 'store/accountReducer';
 
-// project imports
+// Project Imports
 import Loader from 'components/Loader';
 import { AUTH0_API } from 'config';
 import { KeyedObject } from 'types';

@@ -1,7 +1,7 @@
-// material-ui
+// Material UI
 import { FormControl, FormControlLabel, Switch } from '@mui/material';
 
-// project imports
+// Project Imports
 import useConfig from 'hooks/useConfig';
 import SubCard from 'components/cards/SubCard';
 

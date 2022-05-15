@@ -3,7 +3,7 @@ import { combineReducers } from 'redux';
 import { persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 
-// project imports
+// Project Imports
 import userReducer from './slices/user';
 import cartReducer from './slices/cart';
 import menuReducer from './slices/menu';

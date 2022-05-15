@@ -1,34 +1,20 @@
 import { lazy } from 'react';
 
-// project imports
+// Project Imports
 import MainLayout from 'layout/MainLayout';
 import Loadable from 'components/Loadable';
-import AuthGuard from 'utils/route-guard/AuthGuard';
 
-// dashboard page routing
-/*
-const DashboardDefault = Loadable(
-  lazy(() => import('views/dashboard/Default'))
-);
-*/
-
-const DashboardAccount = Loadable(
-  lazy(() => import('views/dashboard/Account'))
-);
+const Resume = Loadable(lazy(() => import('views/pages/resume')));
 
 // ==============================|| MAIN ROUTING ||============================== //
 
 const MainRoutes = {
   path: '/',
-  element: (
-    <AuthGuard>
-      <MainLayout />
-    </AuthGuard>
-  ),
+  element: <MainLayout />,
   children: [
     {
-      path: '/dashboard/account',
-      element: <DashboardAccount />,
+      path: '/resume',
+      element: <Resume />,
     },
   ],
 };

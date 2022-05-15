@@ -1,11 +1,11 @@
 import React, { FunctionComponent, ReactElement } from 'react';
 
-// material-ui
+// Material UI
 import { SvgIconTypeMap, ChipProps, TableCellProps } from '@mui/material';
 
 import { OverridableComponent } from '@mui/material/OverridableComponent';
 
-// project imports
+// Project Imports
 import { TablerIcon } from '@tabler/icons';
 import { CartStateProps } from './cart';
 import { UserProfileProps } from './user-profile';

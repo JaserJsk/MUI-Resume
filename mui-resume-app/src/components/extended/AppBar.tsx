@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 
-// material-ui
+// Material UI
 import { useTheme } from '@mui/material/styles';
 import {
   AppBar as MuiAppBar,
@@ -21,13 +21,14 @@ import {
   useScrollTrigger,
 } from '@mui/material';
 
-// third party
+// Third Party
 import { FormattedMessage } from 'react-intl';
 
-// project imports
+// Project Imports
 import Logo from 'components/Logo';
+import useAuth from 'hooks/useAuth';
 
-// assets
+// Assets
 import {
   IconHome,
   IconClipboard,
@@ -56,17 +57,22 @@ function ElevationScroll({ children, window }: ElevationScrollProps) {
   return React.cloneElement(children, {
     elevation: trigger ? 2 : 0,
     style: {
-      backgroundColor: theme.palette.background.default,
-      borderBottom: trigger ? 'none' : '1px solid',
+      backgroundColor:
+        theme.palette.mode === 'dark'
+          ? theme.palette.dark.main
+          : theme.palette.primary.light,
+      borderBottom: trigger ? 'none' : '0px solid',
       borderColor: trigger ? '' : darkBorder,
       color: theme.palette.text.dark,
     },
   });
 }
 
-// ==============================|| MINIMAL LAYOUT APP BAR ||============================== //
+// ==============================|| MAIN LAYOUT APP BAR ||============================== //
 
 const AppBar = ({ ...others }) => {
+  const { user } = useAuth();
+
   const [drawerToggle, setDrawerToggle] = React.useState<boolean>(false);
   /** Method called on multiple components with different event types */
   const drawerToggler = (open: boolean) => (event: any) => {
@@ -99,17 +105,21 @@ const AppBar = ({ ...others }) => {
                 <FormattedMessage id="resume" />
               </Button>
               <Button color="inherit" component={RouterLink} to="/login">
-                <FormattedMessage id="dashboard" />
+                {user?.id != null ? (
+                  <FormattedMessage id="dashboard" />
+                ) : (
+                  <FormattedMessage id="signin" />
+                )}
               </Button>
               <Button
                 component={Link}
                 disableElevation
                 variant="contained"
                 color="secondary"
-                href="https://docs.senseidev.com/docs/"
+                href="https://www.linkedin.com/in/jaser-jsk/"
                 target="_blank"
               >
-                <FormattedMessage id="documentation" />
+                <FormattedMessage id="linkedin" />
               </Button>
             </Stack>
             <Box sx={{ display: { xs: 'block', sm: 'none' } }}>
@@ -159,20 +169,26 @@ const AppBar = ({ ...others }) => {
                             <IconDashboard />
                           </ListItemIcon>
                           <ListItemText
-                            primary={<FormattedMessage id="dashboard" />}
+                            primary={
+                              user?.id != null ? (
+                                <FormattedMessage id="dashboard" />
+                              ) : (
+                                <FormattedMessage id="signin" />
+                              )
+                            }
                           />
                         </ListItemButton>
                       </Link>
                       <Link
                         style={{ textDecoration: 'none' }}
-                        href="https://docs.senseidev.com/docs/"
+                        href="https://www.linkedin.com/in/jaser-jsk/"
                         target="_blank"
                       >
                         <ListItemButton component="a">
                           <ListItemIcon>
                             <IconBook />
                           </ListItemIcon>
-                          <FormattedMessage id="documentation" />
+                          <FormattedMessage id="linkedin" />
                         </ListItemButton>
                       </Link>
                     </List>

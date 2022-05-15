@@ -1,4 +1,4 @@
-// material-ui
+// Material UI
 import {
   Box,
   Grid,
@@ -9,8 +9,10 @@ import {
   LinearProgressProps,
 } from '@mui/material';
 
-// types
+// Types
 import { CompetenceProps } from 'types/competence';
+
+// ==============================|| RESUME - LANGUAGES ||============================== //
 
 function LinearProgressWithLabel({ value, ...other }: LinearProgressProps) {
   return (

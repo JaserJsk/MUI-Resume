@@ -1,4 +1,4 @@
-// material-ui
+// Material UI
 import {
   Grid,
   Box,
@@ -9,8 +9,10 @@ import {
   LinearProgressProps,
 } from '@mui/material';
 
-// types
+// Types
 import { CompetenceProps } from 'types/competence';
+
+// ==============================|| RESUME - EXPERTISE ||============================== //
 
 function LinearProgressWithLabel({ value, ...other }: LinearProgressProps) {
   return (
@@ -41,7 +43,6 @@ function LinearProgressWithLabel({ value, ...other }: LinearProgressProps) {
   );
 }
 
-// ==============================|| RESUME - USER PROFILE ||============================== //
 const Expertise = ({ skill_name, skill_level }: CompetenceProps) => (
   <List>
     <ListItem>

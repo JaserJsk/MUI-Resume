@@ -1,10 +1,10 @@
-// material-ui
+// Material UI
 import { Typography } from '@mui/material';
 
-// types
+// Types
 import { UserProfileProps } from 'types/user-profile';
 
-// ================================|| UI LIST - FOLDER ||================================ //
+// ================================|| RESUME - ABOUT ME ||================================ //
 
 const AboutMe = ({ about_me }: UserProfileProps) => (
   <Typography variant="subtitle1" color="inherit">
