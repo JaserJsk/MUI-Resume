@@ -9,9 +9,9 @@ import {
 } from '@mui/material';
 
 // Data
-import WorkData from 'Mock/experience.json';
-import EducationData from 'Mock/education.json';
-import CompetenceData from 'Mock/competence.json';
+import WorkData from 'mock/experience.json';
+import EducationData from 'mock/education.json';
+import CompetenceData from 'mock/competence.json';
 
 // Third Party
 import { motion } from 'framer-motion';

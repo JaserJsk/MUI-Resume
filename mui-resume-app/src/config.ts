@@ -8,23 +8,23 @@ export const JWT_API = {
 
 // Project Settings -> Your Apps -> [Add New Webapp] -> configuration
 export const FIREBASE_API = {
-  apiKey: 'AIzaSyBntFCanpoTo4ay37VJnhliXlZK6CS5UxE',
-  authDomain: 'resume-test-299ba.firebaseapp.com',
-  projectId: 'resume-test-299ba',
-  storageBucket: 'resume-test-299ba.appspot.com',
-  messagingSenderId: '502231618449',
-  appId: '1:502231618449:web:c4f4a5ce5a9136dc5dc030',
-  measurementId: 'G-6XCP08C5BW',
+  apiKey: 'AIzaSyAn4QCrq3ef6mzw6_s05use9Ajf25iVVRA',
+  authDomain: 'mui-resume-app-reactjs.firebaseapp.com',
+  projectId: 'mui-resume-app-reactjs',
+  storageBucket: 'mui-resume-app-reactjs.appspot.com',
+  messagingSenderId: '640694097765',
+  appId: '1:640694097765:web:36ad425632e369487cb38c',
+  measurementId: 'G-2FYPGLR390',
 };
 
 export const AUTH0_API = {
-  client_id: '7T4IlWis4DKHSbG8JAye4Ipk0rvXkH9V',
-  domain: 'dev-w0-vxep3.us.auth0.com',
+  client_id: 'CLIENT ID',
+  domain: 'DOMAIN',
 };
 
 export const AWS_API = {
-  poolId: 'us-east-1_AOfOTXLvD',
-  appClientId: '3eau2osduslvb7vks3vsh9t7b0',
+  poolId: 'POOL ID',
+  appClientId: 'APP CLIENT ID',
 };
 
 // basename: only at build time to set, and Don't add '/' at end off BASENAME for breadcrumbs, also Don't put only '/' use blank('') instead,

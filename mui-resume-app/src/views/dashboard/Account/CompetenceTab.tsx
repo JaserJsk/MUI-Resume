@@ -16,7 +16,7 @@ import {
   Autocomplete,
 } from '@mui/material';
 
-import CompetenceData from 'Mock/competence.json';
+import CompetenceData from 'mock/competence.json';
 
 // Third Party
 import { FormattedMessage } from 'react-intl';

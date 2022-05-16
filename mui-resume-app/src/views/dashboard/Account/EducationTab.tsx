@@ -15,7 +15,7 @@ import {
   TableRow,
 } from '@mui/material';
 
-import EducationData from 'Mock/education.json';
+import EducationData from 'mock/education.json';
 
 // Third Party
 import { FormattedMessage } from 'react-intl';
