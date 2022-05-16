@@ -14,5 +14,5 @@ MUI Core [Components](https://mui.com/core/) with material design structure.
    - npm run build / yarn run build
    - firebase login
    - firebase init
-     -- Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+   - -- Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
    - firebase deploy
