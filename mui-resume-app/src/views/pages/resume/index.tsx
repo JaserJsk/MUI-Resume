@@ -1,6 +1,6 @@
 // Project Imports
 import Header from './Header';
-import Content from './content';
+import Content from './Content';
 
 // =============================|| RESUME MAIN ||============================= //
 

@@ -27,6 +27,7 @@
   "upload": "Upload",
   "save": "Save",
   "close": "Close",
+  "account": "Account",
 
   "yes": "Yes",
   "no": "No",
@@ -75,12 +76,15 @@
   "new_password": "New password",
   "reenter_password": "Re-enter password",
 
-  "starter": "Starter Kit Template With",
-  "starter_desc": "This is a Starter-Kit Template for React.js applications",
-  "react_typescript": "React.js & Typescript",
+  "starter": "Create your CV",
+  "react_typescript": "& share it with the world!",
+  "starter_desc": "Create a CV free of charge at all times.",
   "enter_dashboard": "Enter Dashboard",
   "powered_by": "Powered By © MUI ",
   "component_lib": "- React Component Library",
+
+  "browse_profiles": "Browse profiles!",
+  "scroll_down": "Scroll down and browse available profiles.",
 
   "job_hunting": "Looking for work",
   "no_hunting": "Not looking for work",

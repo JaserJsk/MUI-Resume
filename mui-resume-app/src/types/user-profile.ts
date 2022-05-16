@@ -11,6 +11,7 @@ export type UserProfile = {
   hunting?: boolean;
   freelance?: boolean;
   about_me?: string;
+  url?: string;
 };
 
 export interface UserProfileProps extends UserProfile {

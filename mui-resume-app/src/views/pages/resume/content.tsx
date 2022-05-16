@@ -1,3 +1,4 @@
+// Material UI
 import { useTheme, styled } from '@mui/material/styles';
 import {
   Container,
@@ -42,7 +43,7 @@ const ContentPage = () => {
         container
         justifyContent="space-between"
         spacing={gridSpacing}
-        sx={{ mb: { xs: 5, md: 10 } }}
+        sx={{ mt: { md: 0 }, mb: { xs: 5, md: 10 } }}
       >
         {/* ======================================================= */}
         <Grid item xs={12} md={3}>

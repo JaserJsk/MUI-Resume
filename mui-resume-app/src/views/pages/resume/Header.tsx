@@ -41,7 +41,7 @@ const HeaderPage = () => {
         container
         justifyContent="space-between"
         spacing={gridSpacing}
-        sx={{ mt: { xs: 10, sm: 6, md: 15 }, mb: { xs: 2, md: 2 } }}
+        sx={{ mt: { xs: 10, sm: 6, md: 15 } }}
       >
         {/* ======================================================= */}
         <Grid item xs={12} md={3}>

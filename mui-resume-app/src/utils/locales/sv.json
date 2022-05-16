@@ -27,6 +27,7 @@
   "upload": "Ladda upp",
   "save": "Spara",
   "close": "Stäng",
+  "account": "Konto",
 
   "yes": "Ja",
   "no": "Nej",
@@ -75,12 +76,15 @@
   "new_password": "Nytt lösenord",
   "reenter_password": "Skriv lösenordet igen",
 
-  "starter": "Startkit mall med",
-  "starter_desc": "Detta är en Starter-Kit mall för React.js applikationer",
-  "react_typescript": "React.js & Typescript",
+  "starter": "Skapa ditt CV",
+  "react_typescript": "& dela med världen!",
+  "starter_desc": "Skapa ett CV helt gratis.",
   "enter_dashboard": "Till Dashboard",
   "powered_by": "Powered By MUI © ",
   "component_lib": "- React Component Library",
+
+  "browse_profiles": "Bläddra bland profiler!",
+  "scroll_down": "Rulla ned och bläddra bland tillgängliga profiler.",
 
   "job_hunting": "Letar efter jobb",
   "no_hunting": "Letar inte efter jobb",

@@ -1,7 +1,7 @@
 import { Link as RouterLink } from 'react-router-dom';
 
 // Material UI
-import { useTheme } from '@mui/material/styles';
+import { useTheme, styled } from '@mui/material/styles';
 import { Box, Button, Container, Grid, Typography } from '@mui/material';
 
 // Third Party
@@ -9,14 +9,37 @@ import { FormattedMessage } from 'react-intl';
 import { motion } from 'framer-motion';
 
 // Project Imports
+import useAuth from 'hooks/useAuth';
 import { gridSpacing } from 'store/constant';
 import Avatar from 'components/extended/Avatar';
 import AnimateButton from 'components/extended/AnimateButton';
+
+// Assets
+import resumeLight from 'assets/images/landing/resume-light.png';
+import resumeDark from 'assets/images/landing/resume-dark.png';
+import langLight from 'assets/images/landing/lang-light.png';
+import langDark from 'assets/images/landing/lang-dark.png';
+
+const HeaderImage = styled('img')(({ theme }) => ({
+  maxWidth: '100%',
+  borderRadius: '20px',
+  transform: 'scale(1.7)',
+  transformOrigin: theme.direction === 'rtl' ? '100% 50%' : '0 50%',
+  [theme.breakpoints.down('lg')]: {
+    transform: 'scale(1.2)',
+  },
+}));
+
+const HeaderAnimationImage = styled('img')({
+  maxWidth: '100%',
+  filter: 'drop-shadow(0px 0px 50px rgb(33 150 243 / 30%))',
+});
 
 // ==============================|| LANDING - HEADER PAGE ||============================== //
 
 const HeaderPage = () => {
   const theme = useTheme();
+  const { user } = useAuth();
 
   return (
     <Container maxWidth="xl">
@@ -114,7 +137,11 @@ const HeaderPage = () => {
                         variant="contained"
                         color="secondary"
                       >
-                        <FormattedMessage id="enter_dashboard" />
+                        {user?.id != null ? (
+                          <FormattedMessage id="enter_dashboard" />
+                        ) : (
+                          <FormattedMessage id="signin" />
+                        )}
                       </Button>
                     </AnimateButton>
                   </Grid>
@@ -213,6 +240,40 @@ const HeaderPage = () => {
               </motion.div>
             </Grid>
           </Grid>
+        </Grid>
+        {/* ======================================================= */}
+        <Grid item xs={12} md={7} sx={{ display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ position: 'relative', mt: 0 }}>
+            <HeaderImage
+              src={theme.palette.mode === 'dark' ? resumeDark : resumeLight}
+              alt="Berry"
+            />
+            <Box
+              sx={{
+                position: 'absolute',
+                top: '-70px',
+                right: theme.direction === 'rtl' ? '170px' : '-100px',
+                width: '290px',
+                animation: '10s slideY linear infinite',
+              }}
+            >
+              <motion.div
+                initial={{ opacity: 0, scale: 0 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                  type: 'spring',
+                  stiffness: 150,
+                  damping: 30,
+                  delay: 0.2,
+                }}
+              >
+                <HeaderAnimationImage
+                  src={theme.palette.mode === 'dark' ? langDark : langLight}
+                  alt="Berry"
+                />
+              </motion.div>
+            </Box>
+          </Box>
         </Grid>
       </Grid>
     </Container>

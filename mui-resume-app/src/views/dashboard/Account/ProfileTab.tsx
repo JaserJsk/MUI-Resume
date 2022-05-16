@@ -27,7 +27,7 @@ import AnimateButton from 'components/extended/AnimateButton';
 import { gridSpacing } from 'store/constant';
 
 // Assets
-import UserAvatar from 'assets/images/profile/profile-user.png';
+import UserAvatar from 'assets/images/profile/profile-user-1.png';
 
 // ==============================|| ACCOUNT - PROFILE TAB ||============================== //
 
