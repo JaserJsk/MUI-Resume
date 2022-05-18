@@ -246,7 +246,7 @@ const HeaderPage = () => {
           <Box sx={{ position: 'relative', mt: 0 }}>
             <HeaderImage
               src={theme.palette.mode === 'dark' ? resumeDark : resumeLight}
-              alt="Berry"
+              alt="Resume"
             />
             <Box
               sx={{
@@ -269,7 +269,7 @@ const HeaderPage = () => {
               >
                 <HeaderAnimationImage
                   src={theme.palette.mode === 'dark' ? langDark : langLight}
-                  alt="Berry"
+                  alt="Resume"
                 />
               </motion.div>
             </Box>
