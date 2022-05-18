@@ -2,7 +2,7 @@
 import { Container, Grid, Typography } from '@mui/material';
 
 // Data
-import ProfilesData from 'mock/profiles.json';
+import ProfilesData from 'Mock/profiles.json';
 
 // Third Party
 import { FormattedMessage } from 'react-intl';
